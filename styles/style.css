@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .display-flex{
+    display: flex;
+  }
+  .logo{
+    width: 62px;
+    height: 62px;
+  }
+  .school{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 62px;
+    
+  }
+  .bg-light{
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .text-orange{
+    color: orange;
+  }
+  .text-light-orange{
+    color: #F0AA00;
+  }
+  .text-sb{
+    color: skyblue;
+  }
+  .text-light-sb{
+    color: #05D4DF;
+  }
+  .text-purple{
+    color: #5D58EF;
+  }
+  .btn0{
+    background-color: orange;
+    color: white;
+    margin-left: 62px;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px 60.5px;
+    font-weight: 600;
+    
+  }
+  .btn1{
+    background-color: black;
+    color: white;
+    padding: 10px 47px;
+    border-radius: 12px;
+    font-weight: 700;
+  }
+ .navbar{
+justify-content: center;
+align-items: center;
+ }
+ .nav-links{
+   
+ }
+ .nav-item{
+    list-style: none;
+    margin-right: 30px;
+ }
+ .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+
+ }
+ .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+.banner-content{
+    max-width: 1158.61px;
+    margin: 0 auto;
+    text-align: left;
+    margin-right: 50px;
+    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+    
+}
+.hero{
+width: 100%;
+}
+@media screen and (max-width: 576px){
+   .navbar, .nav-links{
+    flex-direction: column;
+   }
+}
