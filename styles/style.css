@@ -1,42 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-  .display-flex{
+}
+
+.display-flex {
     display: flex;
-  }
-  .logo{
+}
+
+.logo {
     width: 62px;
     height: 62px;
-  }
-  .school{
+}
+
+.school {
     font-weight: 700;
     font-size: 2rem;
     margin-right: 62px;
-    
-  }
-  .bg-light{
+
+}
+
+.bg-light {
     background-color: rgba(255, 255, 255, 1);
-  }
-  .text-orange{
+}
+
+.text-orange {
     color: orange;
-  }
-  .text-light-orange{
+}
+
+.text-light-orange {
     color: #F0AA00;
-  }
-  .text-sb{
+}
+
+.text-sb {
     color: skyblue;
-  }
-  .text-light-sb{
+}
+
+.text-light-sb {
     color: #05D4DF;
-  }
-  .text-purple{
+}
+
+.text-purple {
     color: #5D58EF;
-  }
-  .btn0{
+}
+
+.btn0 {
     background-color: orange;
     color: white;
     margin-left: 62px;
@@ -45,117 +56,370 @@
     padding: 10px 60.5px;
     font-weight: 600;
     border-style: none;
-    
-  }
-  .btn1{
+
+}
+
+.btn1 {
     background-color: black;
     color: white;
     padding: 10px 47px;
     border-radius: 12px;
     font-weight: 700;
-  }
- .navbar{
-justify-content: center;
-align-items: center;
- }
- .nav-links{
-   
- }
- .nav-item{
+}
+
+.navbar {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {}
+
+.nav-item {
     list-style: none;
     margin-right: 30px;
- }
- .nav-link{
+}
+
+.nav-link {
     text-decoration: none;
     font-weight: 500;
 
- }
- .navbar, .banner{
+}
+
+.navbar,
+.banner {
     max-width: 1440px;
     margin: 0 auto;
- }
-.banner-content{
+}
+
+.banner-content {
     max-width: 1158.61px;
     margin: 0 auto;
     text-align: left;
     margin-right: 50px;
-    
+
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 3.5rem;
-    
+
 }
-.hero{
-width: 100%;
+
+.hero {
+    width: 100%;
 }
-@media screen and (max-width: 576px){
-   .navbar, .nav-links{
-    flex-direction: column;
-   }
+
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    .nav-links,
+    .banner,
+    .banner-content,
+    .sc,
+    .f1,
+    .f2,
+    .f3,
+    .os,
+    .cards,
+    .card,
+    .footer,
+    .hero,
+    .os,
+    .story-front,
+    .second-story,
+    .story,
+    .end,
+    .end2,
+    .end3,
+    .last {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .btn0 {
+        display: none;
+    }
+
+    .school {
+        display: none;
+    }
+
+    .logo {
+        margin-right: auto;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .nextprev {
+        display: none;
+    }
+
+    .story-front p {
+        display: none;
+    }
+
+    .os h1 {
+        text-align: center;
+    }
+
+    .btn {
+        text-align: center;
+
+    }
+
+    .last {
+        align-items: left;
+    }
+
+    .end3 {
+        margin-right: 600px;
+        align-items: center;
+    }
+
+
+
 }
-main{
+}
+
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
-.s2{
+
+.s2 {
     font-size: 2.8rem;
     text-align: center;
 }
-.btn2{
+
+.btn2 {
     color: #05D4DF;
     border-style: none;
 }
-.btn3{
-color: orange;
-border-style: none;
-}
-.btn4{
-color: #5D58EF;
-border-style: none;
-}
-.sc{
-  text-align: center;
-}
-.f1{
-   
-}
-.f2{
 
+.btn3 {
+    color: orange;
+    border-style: none;
 }
-.f3{
 
+.btn4 {
+    color: #5D58EF;
+    border-style: none;
 }
-.pic{
+
+.sc {
+    text-align: center;
+}
+
+.f1 {
+    background: linear-gradient(rgb(222, 240, 255), white 40%);
+    border: 1px solid rgba(222, 245, 255, 1);
+}
+
+.f2 {
+    background: linear-gradient(#fff4dc, white 40%);
+    border: 1px solid #fff4dc;
+}
+}
+
+.f3 {
+    background: linear-gradient (#EEE1FF, white 40%);
+    border: 1px solid #F2E8FF;
+}
+
+.pic {
     width: 136.76px;
     height: 136.76px;
 }
-a {
+
+s a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
-  .previous {
+}
+
+.previous {
     background-color: orange;
     color: white;
-  }
-  
-  .next {
+}
+
+.next {
     background-color: orange;
     color: white;
-  }
-  
-  .round {
+}
+
+.round {
     border-radius: 50%;
-  }
-.nextprev{
+}
+
+.nextprev {
     justify-content: center;
     margin-top: 80px;
-    gap:7px ;
-}  
+    gap: 7px;
+}
+
+.bg {
+    width: 100%;
+    background-image: url('assets/bg.png'),
+        linear-gradient(rgb(255, 255, 255), rgba(254, 163, 1, 0.3));
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.stories {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stories>h1 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 58px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.stories>.btn {
+    padding: 10px 61px;
+    background: #111111;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.story-front,
+.second-story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 19px;
+}
+
+.story {
+    background: white;
+    border-radius: 16px;
+}
+
+.story>h5 {
+    font-size: 15px;
+    margin: 28px 38px 38px;
+    font-weight: bold;
+    line-height: 29px;
+}
+
+#main>h5 {
+    margin: 50px 35px 48px;
+}
+
+#main>p {
+    color: rgba(102, 102, 102, 1);
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0 38px 20px;
+}
+
+.story>img {
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+}
+
+#first {
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 58px;
+    margin-bottom: 48px;
+    text-align: left;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 47px;
+    border-radius: 12px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-left: 750px;
+}
+
+.par0 {
+    font-size: 1rem;
+}
+
+.par {}
+
+.os2 {}
+
+.fun {}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.last {
+    justify-content: space-between;
+}
+
+.end {
+    margin-top: 65px;
+    gap: 8px;
+}
+
+
+footer {
+    background-color: #01ACFD;
+    padding: 123px 140px;
+}
+
+.logo1 {
+    width: 62px;
+    height: 62px;
+
+}
+
+.school1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 62px;
+    color: white;
+}
+
+.for-color {
+    color: white;
+}
+
+.end2 {
+    color: white;
+}
+
+.for-size {
+    font-size: 20px;
+    list-style: none;
+}
+
+.fs1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.fs2 {
+    font-size: 26px;
+    color: white;
+
+}
+
+.end3 {
+    text-align: right;
+    margin-left: 500px;
+}
